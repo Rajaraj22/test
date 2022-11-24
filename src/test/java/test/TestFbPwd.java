@@ -12,8 +12,8 @@ public class TestFbPwd extends TestFacebook {
 	public void login() {
 
 		Reporter.log("Facebook pwd",true);
-		String title1="Faceboo";
-		String title2 = driver.getTitle();
+		//String title1="Faceboo";
+		//String title2 = driver.getTitle();
 		//SoftAssert sa=new SoftAssert();
 		//sa.assertEquals(title1, title2);
 		PomFacebookForgotpwd fpwd = new PomFacebookForgotpwd(driver);
