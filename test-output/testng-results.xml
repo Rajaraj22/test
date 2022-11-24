@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T08:13:58Z" name="Suite" finished-at="2022-11-24T08:14:07Z" duration-ms="9618">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T08:13:58Z" name="Test" finished-at="2022-11-24T08:14:07Z" duration-ms="9618">
+      <class name="test.TestFacebook">
+        <test-method is-config="true" signature="loginMethod()[pri:0, instance:test.TestFacebook@74a6f9c1]" started-at="2022-11-24T08:13:58Z" name="loginMethod" finished-at="2022-11-24T08:14:06Z" duration-ms="7871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method signature="login()[pri:0, instance:test.TestFacebook@74a6f9c1]" started-at="2022-11-24T08:14:06Z" name="login" finished-at="2022-11-24T08:14:07Z" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- test.TestFacebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
