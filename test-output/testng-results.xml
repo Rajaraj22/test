@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-24T08:13:58Z" name="Suite" finished-at="2022-11-24T08:14:07Z" duration-ms="9618">
+  <suite started-at="2022-11-29T07:20:43Z" name="Suite" finished-at="2022-11-29T07:20:53Z" duration-ms="9897">
     <groups>
     </groups>
-    <test started-at="2022-11-24T08:13:58Z" name="Test" finished-at="2022-11-24T08:14:07Z" duration-ms="9618">
-      <class name="test.TestFacebook">
-        <test-method is-config="true" signature="loginMethod()[pri:0, instance:test.TestFacebook@74a6f9c1]" started-at="2022-11-24T08:13:58Z" name="loginMethod" finished-at="2022-11-24T08:14:06Z" duration-ms="7871" status="PASS">
+    <test started-at="2022-11-29T07:20:43Z" name="Test" finished-at="2022-11-29T07:20:53Z" duration-ms="9897">
+      <class name="test.TestFramework">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestFramework@51133c06]" started-at="2022-11-29T07:20:43Z" name="openBrowser" finished-at="2022-11-29T07:20:52Z" duration-ms="8378" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginMethod -->
-        <test-method signature="login()[pri:0, instance:test.TestFacebook@74a6f9c1]" started-at="2022-11-24T08:14:06Z" name="login" finished-at="2022-11-24T08:14:07Z" duration-ms="1681" status="PASS">
+        </test-method> <!-- openBrowser -->
+        <test-method signature="test()[pri:0, instance:test.TestFramework@51133c06]" started-at="2022-11-29T07:20:52Z" name="test" finished-at="2022-11-29T07:20:53Z" duration-ms="1493" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- test.TestFacebook -->
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TestFramework@51133c06]" started-at="2022-11-29T07:20:53Z" name="closeBrowser" finished-at="2022-11-29T07:20:53Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestFramework -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

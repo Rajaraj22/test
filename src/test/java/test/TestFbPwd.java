@@ -1,11 +1,13 @@
 package test;
 
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import pom.PomFacebookForgotpwd;
 
+@Listeners(generics.Utility.class)
 public class TestFbPwd extends TestFacebook {
 
 	//@Test
