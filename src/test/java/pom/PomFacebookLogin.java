@@ -16,7 +16,7 @@ public class PomFacebookLogin implements AutoConstant {
 	@FindBy(name = "pass")
 	private WebElement pwd;
 
-	@FindBy(name = "login")
+	@FindBy(name = "logi")
 	private WebElement login;
 
 	public PomFacebookLogin(WebDriver driver) {

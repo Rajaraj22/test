@@ -9,7 +9,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 
-public class BaseTest implements AutoConstant {
+public class BaseTest extends ExtentManager implements AutoConstant {
 
 	public static WebDriver driver;
 
@@ -20,18 +20,21 @@ public class BaseTest implements AutoConstant {
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(url);
-		//System.out.println("App open");
-		//Reporter.log("App open");
+		Reporter.log("App open");
 
-		   DOMConfigurator.configure("log4j.xml"); 
-		    Log.info("open browser");
+		DOMConfigurator.configure("log4j.xml");
+
+		Log.info("open browser");
+		
 	}
 
 	@AfterMethod
 	public void closeBrowser() {
 
 		Log.info("close browser");
-	//	driver.close();
+		driver.close();
+		Reporter.log("App close");
+		// ExtentManager.test.info("App close");
 
 	}
 }
